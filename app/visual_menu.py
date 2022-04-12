@@ -1,6 +1,6 @@
 from tkinter import *
 from tkinter import ttk
-from check_input import Check_input
+from app.check_input import Check_input
 check_input = Check_input()
 
 class Visual_menu():

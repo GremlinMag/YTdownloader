@@ -1,4 +1,4 @@
-from downloader import Downloader
+from app.downloader import Downloader
 
 downloader = Downloader()
 class Check_input():

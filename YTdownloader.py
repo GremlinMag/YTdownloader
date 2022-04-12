@@ -1,5 +1,5 @@
-from check_input import Check_input
-from visual_menu import Visual_menu
+from app.check_input import Check_input
+from app.visual_menu import Visual_menu
 import sys
 
 check_input = Check_input()
