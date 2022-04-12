@@ -7,7 +7,7 @@ class Visual_menu():
     def get_link(self):
         only_audio = self.audio_only.get()
         url = self.entry.get()
-        check_input.check_params(url, only_audio)
+        check_input.check_params(url, only_audio, '')
 
     def __init__(self):
         self.window = Tk()
