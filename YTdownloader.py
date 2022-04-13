@@ -8,10 +8,10 @@ if __name__ == "__main__":
     try:
         try:
             if sys.argv[2] == "-a":
-                check_input.check_params(sys.argv[1], True, '')
+                check_input.check_params(sys.argv[1], True, '')         # download audio
             else:
-                check_input.check_params(sys.argv[1], False, '')
+                raise IndexError
         except IndexError:
-            check_input.check_params(sys.argv[1], False, '')
+            check_input.check_params(sys.argv[1], False, '')            # download video
     except IndexError:
-        Visual_menu()
+        Visual_menu()                                                   # open visual menu
